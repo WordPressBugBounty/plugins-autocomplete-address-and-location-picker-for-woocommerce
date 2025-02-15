@@ -16,7 +16,7 @@
  * Plugin Name:       Autocomplete Address and Location Picker for WooCommerce
  * Plugin URI:        https://powerfulwp.com/autocomplete-address-and-location-picker-for-woocommerce
  * Description:       Autocomplete Address and Location Picker for WooCommerce Checkout.
- * Version:           1.1.8
+ * Version:           1.1.9
  * Author:            powerfulwp
  * Author URI:        https://powerfulwp.com/
  * License:           GPL-2.0+
@@ -76,7 +76,7 @@ if ( !function_exists( 'aafw_fs' ) ) {
     do_action( 'aafw_fs_loaded' );
 }
 if ( !function_exists( 'activate_aafw' ) ) {
-    define( 'AAFW_VERSION', '1.1.8' );
+    define( 'AAFW_VERSION', '1.1.9' );
     /**
      * Define supported plugins.
      */

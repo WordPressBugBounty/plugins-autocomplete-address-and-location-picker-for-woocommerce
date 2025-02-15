@@ -5,7 +5,7 @@ Tags: Autocomplete Address, Location Picker, WooCommerce, checkout
 Requires at least: 4.5
 Requires PHP: 5.6
 Tested up to: 6.6
-Stable tag: 1.1.8
+Stable tag: 1.1.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,8 @@ Developed by [PowerfulWP](https://powerfulwp.com/) | [Premium](https://powerfulw
 ## Autocomplete Address and Location Picker for WooCommerce Checkout.
 
 This plugin allows your customers to autocomplete and correct addresses for the billing and shipping checkout fields with the suggested results of the Google Places API.
+
+### Note: This plugin is designed to work with the **classic WooCommerce checkout** (the checkout page using the WooCommerce shortcode, not the WooCommerce Blocks-based checkout).
 
 ## * FREE FEATURES
 
@@ -142,12 +144,16 @@ Autocomplete address for the customer pickup address on the checkout page.
 = 1.1.7
 * Add: Added postal_town suffix.
 * Fix: fix deprecation warnings. 
-* Add: freemius sdk 2.5.10
+* Update: freemius sdk 2.5.10
 
 = 1.1.8
 * Update: Integrated Freemius SDK version 2.6.2.
 * Enhancement: Implemented 'async' attribute in Google Maps script for improved performance.
 * Tweak: Woocommerce HPOS feature support.
+
+= 1.1.9
+* Update: freemius sdk
+
 == Upgrade Notice ==
 
 
